@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/c"
+    android:orientation="vertical"
+    tools:context="com.shubhammm.wheelsonrent.Book_Vehicle_pkg.Book_Vehicle">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Complete Your Booking"
+            android:textColor="@android:color/background_light"
+            android:textAlignment="center"
+            android:textSize="26dp"/>
+
+        <EditText
+            android:id="@+id/vehicle_Name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Bike/Scooty Name"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/Date_Picker"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+
+                android:clickable="true"
+                android:focusable="false"
+                android:hint="Choose Date" />
+
+            <EditText
+                android:id="@+id/Time_Picker"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="false"
+                android:hint="Select Starting Time" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/contact_no"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Contact No."
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/duration"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint=" Duration of Hours"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/promocode"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:textAlignment="center"
+            android:hint="Apply PromoCode if any"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/Confirm_Booking"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:onClick="Book"
+            android:text="CONFIRM BOOKING"
+            android:textSize="26dp" />
+
+    </LinearLayout>
+
+
+</ScrollView>

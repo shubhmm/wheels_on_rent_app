@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shubhammm.wheelsonrent.User.Sign_Up">
+
+
+    <ImageView
+        android:id="@+id/profile_photo"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/icon" />
+
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Wheels On Rent"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/user" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+
+        android:layout_marginTop="150dp"
+        android:ems="5"
+        android:hint="Phone No."
+        android:inputType="phone"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="210dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/lock" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="210dp"
+        android:ems="10"
+        android:hint="Create  Password"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+         />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="400dp"
+        android:onClick="signup"
+        android:text="SIGN UP"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="525dp"
+        android:onClick="login"
+        android:background="@android:color/transparent"
+        android:text="Go To Login page"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+<!--
+    android:background="@drawable/c"
+    android:textColor="@android:color/background_light"
+    android:background="@android:color/transparent"
+    android:textColor="@android:color/white"
+
+-->

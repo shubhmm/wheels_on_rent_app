@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "153207686916",
+    "firebase_url": "https://wheelsonrent-a9387.firebaseio.com",
+    "project_id": "wheelsonrent-a9387",
+    "storage_bucket": "wheelsonrent-a9387.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153207686916:android:c4d513fc8bee315f",
+        "android_client_info": {
+          "package_name": "com.shubhammm.wheelsonrent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153207686916-5q85f1qf93air13mqmilcuatv0cr7f7v.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "153207686916-5q85f1qf93air13mqmilcuatv0cr7f7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh-wzTA11RJdZQ-wnljPbuCx--Qc1L10g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4258d4</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="LoginActivityColor">#db8458</color>
+    <color name="SignupActivityColor">#FF4F515A</color>
+    <color name="white">#FFFEFEFE</color>
+    <color name="yellow">#FFFBE750</color>
+    <color name="light_brown">#FFF97D40</color>
+
+
+</resources>

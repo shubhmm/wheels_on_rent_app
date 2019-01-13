@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Wheels On Rent</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="date">wheelsonrent.com.sharedpreferences.date</string>
+    <string name="time">wheelsonrent.com.sharedpreferences.time</string>
+    <string name="hours">wheelsonrent.com.sharedpreferences.hours</string>
+    <string name="title_activity_otp__sign_up">OTP_SignUp</string>
+
+</resources>

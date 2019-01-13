@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shubhammm.wheelsonrent.User.Update_Profile">
+
+
+    <ImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/user2" />
+
+    <Button
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_pic"
+        android:background="@android:color/transparent"
+        android:text="Select Profile Pic"
+        android:onClick="select"
+        android:textSize="18dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="180dp">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/user" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginStart="70dp"
+
+            android:layout_marginTop="40dp"
+            android:background="@android:color/transparent"
+            android:ems="5"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="100dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@android:drawable/sym_action_call" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="100dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="Phone No."
+
+            android:inputType="number"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="150dp"
+            app:srcCompat="@drawable/regno" />
+
+        <EditText
+            android:id="@+id/regno"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginStart="70dp"
+
+            android:layout_marginTop="150dp"
+            android:background="@android:color/transparent"
+            android:ems="5"
+            android:hint="E-mail"
+
+            android:inputType="textPersonName"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="250dp"
+            android:onClick="submit"
+            android:gravity="center"
+            android:foregroundGravity="center"
+            android:text="SUBMIT"
+            android:textSize="25dp" />
+    </RelativeLayout>
+</RelativeLayout>
